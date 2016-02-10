@@ -1,2 +1,2 @@
 # Anti_Cracker
-Pacote de Modificações para Servidor de Mineteste anti-cracker (anti-trapaça)
+Pacote de Modificações anti-cracker (anti-trapaça) para Servidor de Mineteste
