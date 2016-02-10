@@ -5,7 +5,7 @@ Podes definir algumas diretrizes em diretrizes.lua
 
 Catalogo de medidas
 
-	Numero	Medida			Motivo
+	Numero		Medida			Motivo
 	11		Morte			Foi entendido que o jogador atravessou paredes de caverna
-	12		Resetar Posiçao	Foi entendido que o jogador andou muito rapido (para os lados)
+	12		Resetar Posiçao		Foi entendido que o jogador andou muito rapido (para os lados)
 	
