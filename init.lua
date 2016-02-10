@@ -17,5 +17,10 @@ local modpath = minetest.get_modpath("anti_cracker")
 notificar("Carregando scripts...")
 dofile(modpath.."/diretrizes.lua")
 dofile(modpath.."/metodos.lua")
-dofile(modpath.."/anti_nohup.lua")
+if ANTI_NOHUP == true then
+	dofile(modpath.."/anti_nohup.lua")
+end
+if ANTI_FAST == true then
+	dofile(modpath.."/anti_fast.lua")
+end
 notificar("OK")
