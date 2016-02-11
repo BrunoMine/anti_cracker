@@ -47,8 +47,8 @@ minetest.register_on_cheat(function(player, cheat)
 				if status_tp[name] == false then
 					if not minetest.find_node_near(player:getpos(), 20, lista_blocos_tp) then
 						if minetest.check_player_privs(name, {teleport=true}) ~= true then
-							local msg = "[Ant-Cracker] Medida 12 | Aparentemente voce correu rapido demais."
-							tomar_medida(name, 12, msg)
+							local msg = "[Ant-Cracker] Medida 2 | Aparentemente voce correu rapido demais."
+							tomar_medida(name, 2, msg)
 							player:setpos(ultima_pos[name])
 						end
 					else
