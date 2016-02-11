@@ -28,7 +28,7 @@ verificar_nohup = function(name)
 					)) == 25
 			then
 				minetest.chat_send_player(name, "Morreste soterrado")
-				tomar_medida(name, 11, name.." aparentemente usou nohup em cavernas.")
+				tomar_medida(name, 1, name.." aparentemente usou nohup em cavernas.")
 				player:set_hp(0)
 				minetest.after(tempo_verificar_nohup, verificar_nohup, name)
 			else
