@@ -1,7 +1,8 @@
 # Anti_Cracker
 Pacote de Modificações anti-cracker (anti-trapaça) para Servidor de Mineteste
 
-Podes definir algumas diretrizes em diretrizes.lua
+Esse mod foi feito para mapgens padrões do minetest na versão 0.4.13.
+Para usar esse mod você vai precisar saber configura-lo corretamente, para tanto, acesse a wiki de desenvolvimento
 
 Objetivos do projeto
 * Impedir jogador de atravessar paredes de cavernas
