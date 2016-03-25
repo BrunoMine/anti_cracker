@@ -14,7 +14,7 @@ local tempo_reverificar_noclip = 8
 
 
 -- Ferramenta ANTI FAST
-local ANTI_FAST = true
+local ANTI_FAST = false
 -- Tempo (em segundos) para o servidor atualizar a posicao de todos os jogadores
 local tempo_att = 15
 -- Tempo (em segundos) para o servidor atualizar a posicao de todos os jogadores suspeitos
