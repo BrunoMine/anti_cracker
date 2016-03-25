@@ -24,7 +24,7 @@ local velocidade_max = 7.1
 -- Distancia maxima de um bloco de tp
 local dist_verif = 15
 -- Lista de blocos presentes para livre tp (opicional)
-local blocos_tp_livre = {"portais:bilheteria", "telecasa:mapa"}
+local blocos_tp_livre = {}
 -- Lista de blocos presentes apenas para emitir jogadores (opicional)
 local blocos_tp_emissor = {}
 -- Lista de blocos presentes para respawn privado (exemplo a cama) (opicional)
