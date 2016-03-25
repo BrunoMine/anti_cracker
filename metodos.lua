@@ -26,7 +26,7 @@ local retirar_kick = function(name)
 	kickados = Nkickados
 end
 -- Kickar jogador
-kickar = function(name, numero, msg, tempo)
+local kickar = function(name, numero, msg, tempo)
 	if not name or not msg or not tonumber(tempo) or not tonumber(numero) then return end
 	minetest.kick_player(name, "[Ant-Cracker] Medida "..numero.." | "..msg)
 	kickados[name] = numero
@@ -40,7 +40,7 @@ minetest.register_on_prejoinplayer(function(name)
 end)
 
 -- Tomar medidas
-tomar_medida = function(name, numero, msg, kick, tempo)
+anti_cracker.tomar_medida = function(name, numero, msg, kick, tempo)
 	if not name or not tonumber(numero) or not msg then return end
 	local player = minetest.get_player_by_name(name)
 	if not player then return end
