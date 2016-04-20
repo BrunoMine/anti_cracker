@@ -32,7 +32,7 @@ verificar_noclip = function(name)
 			if node.name == "default:stone" 
 				and table.maxn(minetest.find_nodes_in_area({x=pos.x-1, y=pos.y-1, z=pos.z-1}, {x=pos.x+1, y=pos.y+2, z=pos.z+1} , {"default:stone"})) > 34 
 			then
-				minetest.after(diretrizes.tempo_reverificar_noclip, reverificar_nclip, pos, name)
+				minetest.after(diretrizes.tempo_reverificar_noclip, reverificar_noclip, pos, name)
 			end
 			if pos.y < -100 then
 				minetest.after(diretrizes.tempo_verificar_noclip, verificar_noclip, name)
