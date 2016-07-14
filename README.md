@@ -1,4 +1,4 @@
-# Anti_Cracker 1.0
+# Anti_Cracker v1.0
 Por BrunoMine
 
 Pacote de Modificações anti-cracker (anti-trapaça) para Servidor de Mineteste
