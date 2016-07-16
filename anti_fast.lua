@@ -176,5 +176,7 @@ minetest.register_on_dieplayer(function(player)
 		ultima_pos[name] = spawn
 		suspeitos[name] = true
 		minetest.after(diretrizes.tempo_att, cancelar_suspeito, name)
+	else
+		minetest.log("error", "[Ant-Cracker] Dados inacessivel (player) (em register_on_dieplayer)")
 	end
 end)
