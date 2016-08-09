@@ -47,7 +47,7 @@ end
 minetest.register_on_joinplayer(function(player)
 	if player then
 		local name = player:get_player_name()
-		if minetest.check_player_privs(name, {noclip=true}) ~= true or 1 == 1 then
+		if minetest.check_player_privs(name, {noclip=true}) ~= true then
 			minetest.after(diretrizes.tempo_verificar_noclip, verificar_noclip, name)
 		end
 	end
